@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    margin-top: 40px;
+
+}
+.menu-icon{
+    margin-left: 400px;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+}
+.menu-icon span{
+    margin-left: 60px;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 0 20px;
+}
+.menu ul li:hover{
+    font-size: 15px;
+
+}
+
+
+.menu span{
+    color: aqua;
+    font-size: 18px;
+
+}
+.menu span:hover{
+    font-size: 20px;
+}
+
+.menu ul::after{
+    content: '';
+    height: 2px;
+    width: 70px;
+    background: #000;
+    position:absolute;
+    left: -80px;
+    margin-top: 10px;
+}
+
+.banner{
+    display: flex;
+}
+.left-col{
+    height: 85vh;
+    position: relative;
+    flex-basis: 50%;
+}
+.banner-text{
+    width: 400px;
+
+}
+.banner-text{
+    width: 400px;
+    position: absolute;
+    left: 130px;
+    top: 0;
+}
+.banner-text h6{
+    color: #999;
+    font-weight: 400;
+    margin-top: 20px;
+    position: relative;
+}
+.banner-text h6::after{
+    content: '';
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    background: #000;
+}
+.banner-text h1{
+    font-size: 60px;
+    margin: 30px 0;
+    font-weight: 400;
+
+}
+.banner-text p{
+    font-size: 22px;
+
+}
+.banner h4{
+    margin-top: 30px;
+    position: relative;
+}
+
+.banner-text h4::after{
+    content: '\276F';
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    transform: rotate(90deg);
+
+}
+.small-img{
+    position: absolute;
+    width: 500px;
+    height: 170px;
+    bottom: 0;
+    background: #02bdc4;
+    display: flex;
+    right: 45px;
+    margin-left: 5px;
+    color: #fff;
+
+}
+.small-img p{
+    width: 270px;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 10px 10px 0 20px;
+
+}
+.small-img p span{
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+.small-img p span::after{
+    content: '';
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    left: -15px;
+    top: 35px;
+    background: #000;
+}
+.small-img img{
+    position: absolute;
+    bottom: 55px;
+    right: 25px;
+
+}
+.right-col1{
+    margin-top: 50px;
+    
+    
+}
+.right-col2{
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+.social
+        {
+            margin-top: 550px;
+            margin-right: 20px;
+
+        }    
+     
